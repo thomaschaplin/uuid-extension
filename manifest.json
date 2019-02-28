@@ -1,0 +1,19 @@
+{
+    "name": "Random UUID",
+    "version": "0.0.1",
+    "description": "Generates a random UUID",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "icon16.png",
+        "19": "icon19.png",
+        "38": "icon38.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
